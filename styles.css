@@ -1,0 +1,116 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    background-color: #EEE;
+    padding: 1rem;
+    margin: 0.9rem;
+    border-radius: 0.5em;
+}
+
+figure img{
+    max-width: 100%; 
+    display: block;
+    height: auto;
+    margin: 0 auto ;
+ }
+
+ul {
+    text-align: left;
+}
+
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+a {
+    color: #477CA7;
+    text-decoration: none;
+}
+
+cite {
+    font-weight: bolder;
+}
+
+address {
+    text-align: center;
+}
+
+/* TODAS AS ID'S DO CÓDIGO */
+
+.comentarios h1 {
+    text-align: center;
+    white-space: wrap;
+}
+
+.title {
+    color: #333333;
+    font-size: 2.5rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.img-caption {
+    font-size: 0.8em;
+    padding-top: 0.8em;
+    text-align: center;
+}
+
+.headline {
+    padding-top: 1.5em;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.sub-titulo {
+    text-align: center;
+}
+
+.galeria-comentarios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    width: 100%;
+}
+
+.galeria-comentarios::after {
+    content: "";
+    width: 350px;
+}
+
+.galeria-comentarios p {
+    justify-content: center;
+}
+
+.comentarios-personalidades {
+    border: #333333 solid 0.1em;
+    width: 30%;
+    padding: 10px;
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* TODAS AS ID'S DO CÓDIGO */
+
+@media (max-width: 768px) {
+    .comentarios-personalidades {
+        width: 350px;
+    }
+
+}
